@@ -1,0 +1,27 @@
+---
+title: "Template Title"
+author: "Your Name"
+date: 'YYYY-MM-DD (updated: `r Sys.Date()`) '
+
+output:
+  rmdformats::downcute:
+    self_contained: true
+    thumbnails: true
+    lightbox: true
+    gallery: false
+    highlight: tango
+    df_print: paged
+    
+    
+---
+
+```{r setup, include=FALSE}
+# By default, all codes are hidden. 
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, include = FALSE)
+```
+
+## Introduction
+
+## Analysis
+
+## Conclusions
