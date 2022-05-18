@@ -18,6 +18,9 @@ output:
 ```{r setup, include=FALSE}
 # By default, all codes are hidden. 
 knitr::opts_chunk$set(message = FALSE, warning = FALSE, include = FALSE)
+library(haven)
+library(tidyverse)
+library(here)
 ```
 
 ## Introduction

@@ -3,7 +3,7 @@
     "path": "C:/local_KI/personal/personal_development/BolinRMDTemplate/inst/rmarkdown/templates/template-name/skeleton/skeleton.Rmd",
     "project_path": "inst/rmarkdown/templates/template-name/skeleton/skeleton.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "260612017",
     "contents": "",
     "dirty": false,
     "created": 1652882696972.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "2,18",
-        "scrollLine": "1"
+        "cursorPosition": "6,12",
+        "scrollLine": "4"
     },
     "folds": "",
-    "lastKnownWriteTime": 1652883773,
+    "lastKnownWriteTime": 1652884993,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1652883773018,
+    "last_content_update": 1652884993188,
     "read_only": false,
     "read_only_alternatives": []
 }
