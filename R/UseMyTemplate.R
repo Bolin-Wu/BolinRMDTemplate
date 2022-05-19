@@ -22,11 +22,12 @@ UseMyTemplate <-
       name <- "analysis.Rmd"
     }
 
+    dir.create("analysis", showWarnings = FALSE)
 
     # usethis::use_package("usethis")
 
     usethis::use_template("skeleton.Rmd",
-                 save_as=  name, #"analysis/analysis.Rmd",
+                 save_as=  paste0("analysis/", name), #"analysis/analysis.Rmd",
                  data = list(),
                  package = "BolinRMDTemplate", ..., open = open)
   }
