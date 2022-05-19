@@ -4,7 +4,7 @@ Title: Quickly create a RMD template
 Version: 0.1.0
 Author: Bolin Wu
 Maintainer: Bolin Wu <bolin.wu1026@gmail.com>
-Description: After downloading, use *BolinRMDTemplate::UseMyTemplate()* to create an RMD file in a folder called "analysis". 
+Description: After downloading, use *BolinRMDTemplate::UseMyTemplate()* to create an RMD file in a folder called "rmd". 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

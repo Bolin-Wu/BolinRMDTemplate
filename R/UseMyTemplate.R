@@ -23,12 +23,12 @@ UseMyTemplate <-
     }
 
     # create a folder for Rmd
-    dir.create("analysis", showWarnings = FALSE)
+    dir.create("rmd", showWarnings = FALSE)
 
     # usethis::use_package("usethis")
 
     usethis::use_template("skeleton.Rmd",
-                 save_as=  paste0("analysis/", name),
+                 save_as=  paste0("rmd/", name),
                  data = list(),
                  package = "BolinRMDTemplate", ..., open = open)
   }
