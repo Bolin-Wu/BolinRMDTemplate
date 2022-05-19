@@ -2,3 +2,8 @@ name: My Template
 description: >
    A commonly used template when communicating with others. The output is a nice HTML file. The template is `rmdformats`.
 create_dir: FALSE
+company:
+  name: ABC Company
+  address: 100 abc road
+  phone: 888.888.8888
+  email: abc@abc.com
