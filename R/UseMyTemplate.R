@@ -8,7 +8,7 @@
 #' @examples
 #' \donttest{
 #' if(interactive()){
-#'   UseMyTemplate(name = "UseMyTemplate.Rmd")
+#'   UseMyTemplate()
 #' }
 #' }
 #'
