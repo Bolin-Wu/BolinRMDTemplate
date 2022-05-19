@@ -22,7 +22,7 @@ UseMyTemplate <-
       name <- "analysis.Rmd"
     }
 
-    dir.create(file.path(here::here(), "analysis"), showWarnings = FALSE)
+    dir.create("analysis", showWarnings = FALSE)
 
     usethis::use_package("usethis")
 
