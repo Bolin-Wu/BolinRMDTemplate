@@ -1,5 +1,5 @@
 #' @title UseMyTemplate
-#' @description Use the MyTemplate Rmd for starting analysis
+#' @description Use the skeleton.Rmd for starting analysis. This function creates a new folder "analysis" at root of project and put the rmd file there.
 #' @param name name of analysis file
 #' @param open should the file be opened after being created
 #' @param ... arguments to be passed to \link[usethis]{use_template}
@@ -28,7 +28,7 @@ UseMyTemplate <-
     # usethis::use_package("usethis")
 
     usethis::use_template("skeleton.Rmd",
-                 save_as=  paste0("analysis/", name), #"analysis/analysis.Rmd",
+                 save_as=  paste0("analysis/", name),
                  data = list(),
                  package = "BolinRMDTemplate", ..., open = open)
   }
