@@ -22,6 +22,7 @@ UseMyTemplate <-
       name <- "analysis.Rmd"
     }
 
+    # create a folder for Rmd
     dir.create("analysis", showWarnings = FALSE)
 
     # usethis::use_package("usethis")
