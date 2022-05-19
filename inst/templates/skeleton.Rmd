@@ -3,9 +3,7 @@ title: "Template"
 author:
   - name: "Your Name"
     affiliation: "Your company/university"
-    
 date: 'YYYY-MM-DD (updated: `r Sys.Date()`) '
-
 output:
   rmdformats::downcute:
     self_contained: true
