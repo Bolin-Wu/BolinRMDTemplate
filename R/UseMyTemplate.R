@@ -24,7 +24,7 @@ UseMyTemplate <-
 
     dir.create("analysis", showWarnings = FALSE)
 
-    usethis::use_package("usethis")
+    # usethis::use_package("usethis")
 
     usethis::use_template("skeleton.Rmd",
                  save_as=  paste0("analysis/", name), #"analysis/analysis.Rmd",
